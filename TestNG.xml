@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Find More Tutorials On WebDriver at -> http://software-testing-tutorials-automation.blogspot.com -->
+<suite name="SoftwareTestingMaterial">
+	 <test name="Test">
+	
+    <classes>
+        <class name="SoftwareTestingMaterial.ExtentReportsClass"/>       
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
