@@ -4,7 +4,7 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.apache.tools.ant.util.FileUtils;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -31,7 +31,7 @@ public class ExtentReportsClass1 {
 				extent = new ExtentReports(System.getProperty("user.dir")+"/test-output/STMExtentReport.html", true);
 				extent
                 .addSystemInfo("Host Name", "IndianNIC")
-                .addSystemInfo("Environment", "Automation Testing")
+                .addSystemInfo("Environment", "Automation Testing By Admin")
                 .addSystemInfo("User Name", "ManojKumar Rangineni");
                 //loading the external xml file (i.e., extent-config.xml) which was placed under the base directory
                 //You could find the xml file below. Create xml file in your project and copy paste the code mentioned below
